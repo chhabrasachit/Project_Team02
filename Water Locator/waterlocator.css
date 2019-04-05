@@ -1,0 +1,120 @@
+ 
+        
+        body{
+            background-image:url(waterbg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+          .a {
+            background-color: #0F2C49;
+            color: paleturquoise;
+            font-family: serif;
+            font-weight: bold;
+            font-size: 50pt;
+            margin: 0px;  
+            padding: 0px;
+            text-align: center;
+            width: 100%;
+            text-shadow: 0 0 3px #0000FF, 0 0 5px #000000;
+           }
+        
+        .b{
+            position: absolute;
+            left: 22px;
+            top: 110px;
+            width: 400px;
+            height: auto;            
+        }
+        
+        .c{
+            position: absolute;
+            left: 480px;
+            top: 110px;
+            width: 400px;
+            height: auto;
+        }
+        .d{
+            position: absolute;
+            right: 22px;
+            top: 110px;
+            width: 400px;
+            height: auto; 
+        }
+        
+        .e{
+            position: absolute;
+            top: 420px;
+            left: 160px;
+
+        }
+        .f{
+            float: left;
+            position: absolute;
+            top: 450px;
+            left: 160px;
+
+        }
+        .g{
+            float: left;
+            position: absolute;
+            top: 420px;
+            left: 620px;
+
+        }
+        .h{
+            float: left;
+            position: absolute;
+            top: 450px;
+            left: 625px;
+        }
+        
+        .i{
+            float: left;
+            position: absolute;
+            top: 420px;
+            right: 50px;
+        }
+
+        .j{
+            float: left;
+            position: absolute;
+            top: 450px;
+            right: 50px;
+        }
+        p {
+            background-image: url(grad1.jpg);
+            position: absolute;
+            top: 460px;
+            left: 600px;
+            width: 160px;
+            height: 70px;
+            font-size: 30px;
+            text-align: center;
+            
+        }
+          #metrotown{
+            position: absolute;
+            top: 78px;
+            left: 120px;
+            font-size: 22px;
+            background-color: antiquewhite;
+        }
+        
+        #surreycentral{
+            position: absolute;
+            top: 78px;
+            left: 600px;
+            font-size: 22px;
+            background-color: antiquewhite;
+        }
+        
+        #kinggeorge{
+            position: absolute;
+            top: 78px;
+            left: 1050px;
+            font-size: 22px;
+            background-color: antiquewhite;
+        }
