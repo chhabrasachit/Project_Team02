@@ -36,5 +36,6 @@ function contact(){
 function faq(){
     window.location.href = "../FAQ/faqpage.html";
 }
-    
-    
+function about(){
+  window.location.href = "../about us/about us.html";
+}
