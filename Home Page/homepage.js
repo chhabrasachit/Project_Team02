@@ -25,15 +25,16 @@ function openNav() {
 }
 
 function waterlocator(){
-    window.location.href = "file:///C:/Users/User/Documents/BBY_1930/week_1/Sprint-week-1/Water%20Locator/waterlocator.html";
+    window.location.href = "../Water Locator/waterlocator.html";
 }
 function guidedlearning(){
-    window.location.href = "file:///C:/Users/User/Documents/BBY_1930/week_1/Sprint-week-1/Guided%20Learning/Guided%20Learning%20part1.html";
+    window.location.href = "../Guided Learning/Guided Learning part1.html";
 }
 function contact(){
-    window.location.href = "file:///C:/Users/User/Documents/BBY_1930/week_1/Sprint-week-1/Contact%20Us/Contact%20Us.html";
+    window.location.href = "../Contact Us/Contact US.html";
 }
 function faq(){
-    window.location.href = "file:///C:/Users/User/Documents/BBY_1930/week_1/Sprint-week-1/FAQ/faqpage.html";
+    window.location.href = "../FAQ/faqpage.html";
 }
+    
     
