@@ -1,0 +1,217 @@
+body{
+    background-image:url(../images/agriculture_easytouse.jpeg);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    opacity: 0.2px;
+    overflow: hidden;
+    }
+
+.a {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    color: paleturquoise;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 50pt;
+    margin-top: -8px;
+    text-align: center;
+    width: 100%;
+    padding: 0.5%;
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #000000;
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #000000;
+   }
+
+.b{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.c{
+    float: right;
+    width: 40%;
+    height: 50%;
+    margin-right: -08%;
+    margin-top: -7.5%;
+}
+.d{
+    float: right;
+    margin-top: 13.5%;
+    margin-right: -2%;
+    width: 2%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+    float: left;
+    margin-top: -5%;
+}
+
+#sudo{
+    font-size: x-large;
+    font-family: serif;
+    font-weight: 500;
+    background-color: background: rgb(0, 0, 0); /* Fallback color */
+         background: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    border-style: groove;
+    border-color: black;
+    position: fixed;
+    margin: 50px;
+    color: white;
+    line-height: 150%;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+    align-content: center;
+    text-align: center;
+    margin-left: 43%;
+    
+}
+#right{
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 15%;
+    font-size: 16px;
+}
+
+.custom-select select {
+  /*hide original SELECT element:*/
+    //display: none;
+    width: 190px;
+    height: 35px;
+    margin-left: 15px;
+    position:absolute;
+        background-color: black;
+    color: white;
+    font-family: auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    text-align-last: center;
+    
+}
+
+.select-selected {
+  background-color: black;
+    color: white;
+    margin-top: -9px;
+    display: none;
+    
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: darkcyan;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#backimage{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0;
+    }
+
+#backimage:hover{
+    cursor: pointer;
+}

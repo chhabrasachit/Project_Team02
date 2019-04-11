@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/homepage.css">
+    
+<body >
+   
+<!--  Div for nav bar  -->
+    <div class="navbar">
+      <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+      <a onclick="aboutus()"><i class="fa fa-fw fa-search"></i> About Us</a> 
+      <a onclick="faq()"><i class="fa fa-fw fa-envelope"></i> FAQ</a>
+    </div>
+    
+<!--  Div for background(used in CSS) and sidebar button  -->
+        <div id="backside"></div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfNqz1cNBzw3IwAVHQtAqE9IhYPGt90gXNHJhcTHBrCexNgPkx" id="img2">
+            </button>         
+        </div>
+    
+<!--  Sidebar div  -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#Settings">Settings</a>
+        <a onclick="contactus()">Contact Us</a>
+        <a href="#Share">Share</a>
+    </div>
+    
+<!--  Buttons for Water locator and Guided Learning  -->
+	<div class="wrap">
+  		<a class="button" onclick="waterlocator()">WATER LOCATOR</a>
+  		<a class="button2" onclick="guidedlearning()">GUIDED LEARNING</a>
+	</div>
+    
+
+ <!-- Footer Section -->
+ <footer class="footer-distributed" id="contact">
+    	<div class="footer-left">
+            <h1><span>WATER</span> is <span>LIFE</span></h1>
+				<p class="footer-company-name">Team02 &copy; 2019</p>
+        </div>
+        <div class="footer-center">
+            <div>
+            <p><span>3700 Willingdon Ave</span> Burnaby,BC</p>
+            </div>
+
+            <div>
+                <p>+1 604 727 3019</p>
+            </div>
+
+            <div>
+                <p><a href="mailto:quickmed@company.com">waterlife@company.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Stuck in an Emergency?Have Queries? Call us!
+                We help people get out of the emergencies they are stuck in 
+                and provide them with suitable information.
+            </p>
+        </div>
+
+ </footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="../javascript/homepage.js"></script> 
+</body>
+</html> 

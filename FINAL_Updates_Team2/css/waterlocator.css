@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');       
+
+    body{
+        background-image:url(../images/waterbg2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* CSS for Heading */
+    .a {
+        color: paleturquoise;
+        background: rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        font-size: 40pt;
+        margin-bottom: 60px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        text-shadow: 0 0 3px #0000FF, 0 0 5px #000000;
+        font-family: 'Varela Round', sans-serif;
+       }
+
+    /* Three headings of Location's name - Metrotown, SurreyCentral, KingGeorge */
+      #metrotown{
+        position: absolute;
+        top: 78px;
+        left: 130px;
+        font-size: 22px;
+        z-index: -1;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #surreycentral{
+        position: absolute;
+        top: 78px;
+        left: 590px;
+        font-size: 22px;
+        z-index: -1;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #kinggeorge{
+        position: absolute;
+        top: 78px;
+        left: 1060px;
+        font-size: 22px;
+        z-index: -1;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    /* Three pics of locations */
+    .b{
+        position: absolute;
+        left: 22px;
+        top: 110px;
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .c{
+        position: absolute;
+        left: 490px;
+        top: 110px;
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .d{
+        position: absolute;
+        left: 950px;
+        top: 110px;
+        width: 400px;
+        height: auto;
+        border-radius: 10px;            
+    }
+
+    /* Six buttons of nearby and other */
+    .e{
+        position: absolute;
+        left: 28px;
+        width: 390px;
+        height: 40px;
+        top: 380px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;
+    }
+
+    .f{
+        float: left;
+        position: absolute;
+        top: 422px;
+        left: 28px;
+        width: 390px;
+        height: 40px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;
+    }
+
+    .g{
+        float: left;
+        position: absolute;
+        width: 385px;
+        height: 40px;
+        top: 380px;
+        left: 498px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;
+    }
+
+    .h{
+        float: left;
+        position: absolute;
+        top: 422px;
+        left: 498px;
+        width: 385px;
+        height: 40px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;        
+    }
+
+    .i{
+        float: left;
+        position: absolute;
+        width: 390px;
+        height: 40px;
+        top: 380px;
+        left: 955px;
+        background-color: aqua;
+        margin-right: 10px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;
+    }
+
+    .j{
+        float: left;
+        position: absolute;
+        top: 422px;
+        left: 955px;
+        width: 390px;
+        height: 40px;
+        margin-right: 10px;
+        font-size: 17px;
+        background-color: rgba(71, 61, 42, 0.5);
+        color: white;
+        cursor: pointer;
+    }
+
+    /* CSS for the name of the location */
+    p {
+        position: absolute;
+        top: 460px;
+        left: 490px;
+        width: 400px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgba(102, 255, 255, 1);
+    }
+    
+    /* CSS for 4 results, showing details of the location */
+    #div1{
+        position: absolute;
+        top: 550px;
+        left: 580px;
+        width: 220px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        border-left: 6px solid darkblue;
+        background-color: rgba(102, 255, 255);
+        border-radius: 5px;
+    }
+
+    #div2{
+        position: absolute;
+        top: 590px;
+        left: 580px;
+        width: 220px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        border-left: 6px solid darkblue;
+        background-color: lightgrey;
+        background-color: rgba(102, 255, 255);
+        border-radius: 5px;
+    }
+
+    #div3{
+        position: absolute;
+        top: 630px;
+        left: 580px;
+        width: 220px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        border-left: 6px solid darkblue;
+        background-color: lightgrey;
+        background-color: rgba(102, 255, 255);
+        border-radius: 5px;
+    }
+
+    #div4{
+        position: absolute;
+        top: 670px;
+        left: 580px;
+        width: 220px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        border-left: 6px solid darkblue;
+        background-color: lightgrey;
+        background-color: rgba(102, 255, 255);
+        border-radius: 5px;
+    }
+
+    /* Back button */
+    #backimage{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 0;
+    }
+
+    #backimage:hover{
+        cursor: pointer;
+    }
